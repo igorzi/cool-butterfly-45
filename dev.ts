@@ -3,4 +3,6 @@
 import dev from "$fresh/dev.ts";
 import config from "./fresh.config.ts";
 
+await foo();
+
 await dev(import.meta.url, "./main.ts", config);

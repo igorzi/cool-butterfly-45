@@ -12,4 +12,5 @@ import config from "./fresh.config.ts";
 
 await foo();
 
+
 await start(manifest, config);
